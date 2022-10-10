@@ -1,0 +1,39 @@
+*{
+    /* 取消页面元素的内外边距 */
+    padding:0;
+    margin:0;
+}
+.bigBox {
+    width: 500px;
+    height: 310px;
+    /* background-color: rgb(0, 225, 255); */
+    /* 距离页面上方30px */
+    margin-top: 30px;
+    /* 距离页面左边30px */
+    margin-left:30px;
+}
+.bigBox>div{
+    height: 60px;
+    font-size:20px;
+    color:#ff6347;
+    border-top:2px solid #4e6ef2;
+    border-bottom:1px solid #4e6ef2;
+    /* 行高与边框高度相同设置文字居中 */
+    line-height:60px;
+    font-weight:bold;
+    /* "设置首航缩进" */
+    text-indent: 1em;
+}
+ul{
+    list-style:inside;
+    font-size: 25px;
+    line-height: 55px;
+    /* margin 用于设置外边距 */
+    margin-top:10px;
+}
+/* hover 伪类选择器用于声明鼠标滑过样式 */
+ul>li:hover{
+
+color:blue;
+text-decoration:underline
+}
